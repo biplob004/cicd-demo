@@ -23,7 +23,7 @@ def health_check():
 @app.route("/info")
 def app_info():
     return jsonify(
-        {"app_name": "Flask CI/CD Demo", "version": "1.0.1", "environment": os.environ.get("FLASK_ENV", "development")}
+        {"app_name": "Flask CI/CD Demo", "version": "1.0.2", "environment": os.environ.get("FLASK_ENV", "development")}
     )
 
 
